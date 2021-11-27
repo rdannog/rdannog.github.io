@@ -8,42 +8,36 @@ export function Menu() {
         query {
            alldata{
             headers {
-                about
                 blacklogo {
                   url
                 }
-                blog
-                contact
-                description
-                home
-                intro
-                photo {
-                  url
-                }
-                subtitle
                 whitelogo {
                   url
                 }
-                work
             }
           }
         }
     `)
-    const {about, blacklogo, whitelogo, blog, contact, description, home, intro, photo, subtitle, work} = data.alldata.headers[0]
+    const {blacklogo, whitelogo} = data.alldata.headers[0]
     return (
         <S.Container>
           <S.Navigation>
             <ul>
-              <li><Link to="/">{home}</Link></li>
-              <li><Link to="/work">{work}</Link></li>
-              <li><Link to="/about">{about}</Link></li>
-              <li><Link to="/blog">{blog}</Link></li>
+              <li><S.StyledLink to="/">Home</S.StyledLink></li>
+              <li><S.StyledLink to="/work">Work</S.StyledLink></li>
+              <li><S.StyledLink to="/about">About</S.StyledLink></li>
+              <li><S.StyledLink to="/blog">Blog</S.StyledLink></li>
             </ul>
           </S.Navigation>
           <S.LogoContainer>
             <Link to="/">
-            <img src={blacklogo.url} alt=""/>
+            <S.BlackLogo src={blacklogo.url} alt=""/>
             </Link>
+            <S.WhiteLogo>
+              <Link to="/">
+                <img src={whitelogo.url} alt=""/>
+              </Link>
+            </S.WhiteLogo>
           </S.LogoContainer>
           <Socialmedia/>
       </S.Container>
