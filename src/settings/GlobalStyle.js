@@ -16,19 +16,19 @@ body{
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: black; 
+  background: #fff; 
 }
 ::-webkit-scrollbar-thumb {
-  background: #B8834F; 
+  background: #9B9B9B; 
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: darkgoldenrod; 
+  background: #202945; 
 }
 }
 a{
   text-decoration:none;
   cursor:pointer;
-  color:black;
+  color:#202945;
 }
 button:hover{
   transition:0.7s ease-in;

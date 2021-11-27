@@ -32,9 +32,11 @@ export const Navigation =styled.nav`
     }
 `
 export const StyledLink = styled(Link)`
-    padding:15% 10%;
+    padding:10% 10%;
     &:hover{
-        border: 2.2px solid #303030;
+        color: #fff;
+        background-color: #303030;
+        border: 2.2px solid #202945;
         animation: mymove 0.8s ease-in-out;
         animation-timing-function: ease;
     }
@@ -85,7 +87,7 @@ export const HelloBtn = styled.div`
     button{
         position: relative;
         display: inline-block;
-        border: solid 2px #303030;
+        border: solid 2px #202945;
         padding: 2.5vh 2vw;
         background: #fff;
         text-transform: uppercase;
@@ -94,7 +96,7 @@ export const HelloBtn = styled.div`
         transition: all 1s ease;
         &:hover{
             color: #fff;
-            background-color:#000;
+            background-color:#303030;
             transition: all 0.8s ease 0s;
             animation: 5s ease 0s 1 normal none running;
             cursor:pointer;
@@ -118,8 +120,8 @@ export const IntroContainer = styled.div`
     img{
         border: solid 2px #303030;
         border-radius: 50%;
-        height: 90%;
-        background: #303030;
+        height: 85%;
+        background: #152028;
         transform:translateX(-120%);
         animation: 3s slide 0s forwards;
         @keyframes slide {
@@ -136,6 +138,7 @@ export const IntroText = styled.div`
     justify-content: space-around;
     width: 50%;
     height: 70%;
+    color: #303030;
 
     transform:translateY(-30%);
     animation: 3s slide 0s forwards;
