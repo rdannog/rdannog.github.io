@@ -3,7 +3,7 @@ import { Link, graphql, useStaticQuery } from 'gatsby'
 import * as S from './style'
 import { Socialmedia } from './socialmedia'
 
-export function Menu() {
+export default function Menu() {
     const data = useStaticQuery(graphql`
         query {
            alldata{

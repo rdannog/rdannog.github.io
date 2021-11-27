@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import * as S from './style'
 
-export function Intro() {
+export default function Intro() {
     const data = useStaticQuery(graphql`
         query {
            alldata{
