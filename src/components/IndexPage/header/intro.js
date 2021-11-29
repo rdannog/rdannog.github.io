@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import * as S from './style'
 
 export default function Intro() {
@@ -25,7 +25,7 @@ export default function Intro() {
                 <img src={photo.url} alt=""/>
             </S.IntroContainer>
             <S.IntroText>
-                <h1>{intro}</h1>
+                <h1>{intro} ✨</h1>
                 <h3>{description}</h3>
                 <p>{subtitle}</p>
             </S.IntroText>
