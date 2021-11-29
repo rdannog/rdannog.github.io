@@ -1,7 +1,8 @@
 module.exports = {
+  pathPrefix: "/",
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "portfolio",
+    siteUrl: "https://rdannog.github.io",
+    title: "DAN NOGUEIRA",
   },
   plugins: ["gatsby-plugin-styled-components", "gatsby-plugin-react-helmet",
   {
