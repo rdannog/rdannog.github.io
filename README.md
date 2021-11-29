@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://media.graphcms.com/gI2Ei7f6TMuZKZTlNqJN" alt=""/>
+    <img src="https://media.graphcms.com/4G9sxeXKSUaJwdyHJlH2" alt=""/>
 </p>
 
 <h1 align="center">Dan Nogueira's Portfolio</h1>
