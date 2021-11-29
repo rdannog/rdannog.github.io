@@ -20,7 +20,8 @@ export const Content = styled.div`
         display: inline-block;
         border: solid 2px #202945;
         padding: 2vh 1vw;
-        background-color:#B6BDDB;        font-size: 1.2vw;
+        background-color:#B6BDDB;        
+        font-size: 1.2vw;
         color: #303030;
         transition: all 1s ease;
         &:hover{

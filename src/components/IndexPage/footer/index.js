@@ -4,7 +4,7 @@ import * as S from './style'
 export default function Footer() {
     return (
         <S.Container>
-            <S.Content>
+            <S.Content >
                 <button>Switch Theme</button>
             </S.Content>
             <S.Copyright>

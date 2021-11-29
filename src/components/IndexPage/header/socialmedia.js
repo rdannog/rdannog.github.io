@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
+import { Link, graphql, useStaticQuery } from 'gatsby'
 import * as S from './style'
 
 export function Socialmedia() {
@@ -33,7 +33,9 @@ export function Socialmedia() {
             </a>
             </S.IconContainer>
             <S.HelloBtn>
-              <button>{helloBtn}</button>
+              <Link to="/contact">
+                <button>{helloBtn}</button>
+              </Link>
           </S.HelloBtn>
       </S.Socialmedia>
     )
