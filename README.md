@@ -1,56 +1,109 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f01e5e5c-6747-4885-b8ae-6b001e64d18a/deploy-status)](https://app.netlify.com/sites/rdannog/deploys)
+<p align="center">
+    <img src="https://media.graphcms.com/gI2Ei7f6TMuZKZTlNqJN" alt=""/>
+</p>
+
+<h1 align="center">Dan Nogueira's Portfolio</h1>
+
+<div>
+    <p align="center">
+        <img 
+    src="https://img.shields.io/badge/Gatsby-%23663399.svg?style=for-the-badge&logo=gatsby&logoColor=white" 
+    alt="gatsby">
+  <img 
+    src="https://img.shields.io/badge/styled_components-DB7093?style=for-the-badge&amp;logo=styled-components&amp;logoColor=white" 
+    alt="styled-components">
+  <img 
+    src="https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" 
+    alt="graphql">
+      <img 
+    src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" 
+    alt="npm">
+    <img 
+    src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white"
+    alt="Git" />
+      <img 
+    src="https://img.shields.io/badge/Netlify-30C8C9?style=for-the-badge&amp;logo=netlify&amp;logoColor=white" 
+    alt="Netlify">
+    </p>
+</div>
+
+## Table of Contents
 
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
+ <a href="#about">About</a> •
+ <a href="#revised-concepts">Revised Concepts</a> • 
+ <a href="#installation">Installation</a> 
 </p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
 
-## 🚀 Quick start
+## 📌About
 
-1.  **Create a Gatsby site.**
+<div id="about">
+    <p align="left">
+    <em>Construction of a landing page based on a template, using GatsbyJs. Project developed at Vai na Web with the aim of learning. I love David Bowie, hope you enjoy it!
+    </em>
+    </p>
+    <a href="https://ziggy-stardust.netlify.app/"><p align="left"><em>See the project online here!</em></p></a>
+</div>
+<img src="https://github.com/rdannog/rdannog.github.io/blob/main/src/components/readme/preview.png?raw=true">
+<br>
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+<h2 id="revised-concepts">🗄️ Revised Concepts</h2>
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+- Componentization
+- Use of Routes
+- CMS API consumption
+- Responsive design
+- Documentation
+- Debugging code
+- Designing components
+- Animation
+- Theme changing (Dark/Light)
+- Deploying
 
-2.  **Start developing.**
+<h2 id="installation">📕Installation</h2>
 
-    Navigate into your new site’s directory and start it up.
+**Recommendations**
+-   It is recommended that you have installed Google Chrome or Edge
+-   I recommend using VSCode as development IDE
 
-    ```shell
-    cd my-gatsby-site/
+**Let's divide it into 3 steps.**
+1. Clone this repository
+2. Install dependencies
+3. Initializing the project
+  ---
+### 1. Clone this repository
+```
+git clone https://github.com/rdannog/rdannog.github.io.git
+```
+
+### 2. Install the dependencies
+```
+cd rdannog.github.io
+npm install
+```
+
+*Make sure your internet is stable, as this may take a while* 
+
+### 3. Initializing the project
+    
     npm run develop
-    ```
+    
+ **Open the code and start customizing!**
 
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
+    Project is now running at http://localhost:8000!
 
 4.  **Learn more**
 
     - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
     - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## 🚀 Quick start (Gatsby Cloud)
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+<h3 align="center">
+Released in 2021.
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+Made with 💖 by [Dandaro](https://github.com/rdannog) 🚀.
+
+</h3>
