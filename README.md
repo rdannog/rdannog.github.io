@@ -39,7 +39,7 @@
 
 <div id="about">
     <p align="left">
-    <em>Construction of a landing page based on a template, using GatsbyJs. Project developed at Vai na Web with the aim of learning. I love David Bowie, hope you enjoy it!
+    <em>Construction of a professional portfolio using GatsbyJs. Project developed with the aim of learning and exposing my habilities so far.
     </em>
     </p>
     <a href="https://rdannog.github.io/"><p align="left"><em>See the project online here!</em></p></a>
