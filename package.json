@@ -22,6 +22,7 @@
     "gatsby-plugin-styled-components": "^5.2.0",
     "gatsby-source-graphql": "^4.2.0",
     "react": "^17.0.1",
+    "react-dark-theme": "^1.1.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "styled-components": "^5.3.3"

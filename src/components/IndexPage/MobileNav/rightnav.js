@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import * as S from '../header/style';
 
 const RightNav = ({ open }) => {
@@ -28,7 +29,9 @@ const RightNav = ({ open }) => {
             </a>
             </S.Icon>
             <S.Hello>
-              <button>Say Hello!</button>
+            <Link to="/contact">
+                <button>Say Hello!</button>
+              </Link>
           </S.Hello>
       </S.Social>
       </S.Ul>

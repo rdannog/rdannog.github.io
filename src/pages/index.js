@@ -11,7 +11,7 @@ export default function Index() {
     <div>
       <S.GlobalStyle />
       <Settings />
-      <Menu />
+      <Menu/>
       <Intro />
       <Footer />
     </div>
