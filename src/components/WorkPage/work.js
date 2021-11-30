@@ -40,14 +40,55 @@ export default function Work() {
                 <h1>{worktitle}</h1>
             </S.Title>
             <S.Pages>
-                <img src={ziggy.url} alt=""/>
-                <img src={recipes.url} alt=""/>
-                <img src={uloax.url} alt=""/>
-                <img src={strytegy.url} alt=""/>
-                <img src={danflix.url} alt=""/>
-                <img src={carshop.url} alt=""/>
-                <img src={pokedex.url} alt=""/>
-                <img src="" alt=""/>
+                <div className="box">
+                    <a href="https://ziggy-stardust.netlify.app/" target="_blank" >
+                        <div>Ziggy Stardust</div>
+                        <img src={ziggy.url} alt=""/>
+                    </a>
+                </div>
+                <div className="box">
+                    <a href="https://recipes-gatsby.netlify.app/" target="_blank">
+                        <div>Recipes Page</div>
+                        <img src={recipes.url} alt=""/>
+                    </a>
+                
+                </div>
+                <div className="box">
+                    <a href="https://uloax.netlify.app/" target="_blank">
+                        <div>Uloax Landing Page</div>
+                        <img src={uloax.url} alt=""/>
+                    </a>
+                </div>
+                <div className="box">
+                    <a href="https://strytegy-clone.netlify.app/" target="_blank">
+                        <div>Strytegy Clone</div>
+                        <img src={strytegy.url} alt=""/>
+                    </a>
+                </div>
+                <div className="box">
+                    <a href="https://rdannog.github.io/DanFlix-react-app/" target="_blank">
+                        <img src={danflix.url} alt=""/> 
+                        <div>DanFlix</div>
+                    </a>
+                </div>
+                <div className="box">
+                    <a href="https://rdannog.github.io/desafio-final-shopping-car/" target="_blank">
+                        <div>Car Shop</div>
+                        <img src={carshop.url} alt=""/>
+                    </a>
+                </div>
+                <div className="box">
+                    <a href="https://rdannog.github.io/react-pokedex-app/" target="_blank">
+                        <div>Pokédex App</div>
+                        <img src={pokedex.url} alt=""/>
+                    </a>
+                </div>
+                <div className="box">
+                    <a href="/">
+                        <div>Back to home</div>
+                        <img src="" alt=""/>
+                    </a>
+                </div>
             </S.Pages>
         </S.Container>
     )
