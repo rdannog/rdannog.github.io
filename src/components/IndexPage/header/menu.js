@@ -25,8 +25,8 @@ export default function Menu() {
           <S.Navigation>
             <ul>
               <li><S.StyledLink to="/">Home</S.StyledLink></li>
-              <li><S.StyledLink to="/work">Work</S.StyledLink></li>
               <li><S.StyledLink to="/about">About</S.StyledLink></li>
+              <li><S.StyledLink to="/work">Work</S.StyledLink></li>
               <li><S.StyledLink to="/blog">Blog</S.StyledLink></li>
             </ul>
           </S.Navigation>
