@@ -12,7 +12,7 @@ export default function About() {
                     <div>
                         <h1>Hi there 👋, I'm Dandaro</h1>
                     </div>
-                    <div>
+                    <div className="badge">
                         <a href="mailto:dandaro.nogueira@gmail.com">
                             <img 
                             src="https://img.shields.io/badge/Gmail-F85C46?style=for-the-badge&amp;logo=Gmail&amp;logoColor=202945" alt="gmail"/>

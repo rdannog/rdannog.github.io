@@ -17,6 +17,9 @@ export const Title = styled.div`
         font-size:2.5vw;
         font-weight:500;
         color:#202945;
+        @media (max-width: 500px) {
+            font-size: 7vw;
+        }
     }
 `
 export const Pages = styled.div`
@@ -61,6 +64,9 @@ export const Pages = styled.div`
         img{
             border-radius: 5px;
             width:100%;
+        }
+        @media (max-width: 500px) {
+            width:90%;
         }
     }
 `

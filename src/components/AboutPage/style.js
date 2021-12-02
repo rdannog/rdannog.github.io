@@ -14,6 +14,9 @@ export const About = styled.div`
     justify-content: space-around;
     border: 2px solid #202945;
     background-color: #f0faf0;
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
 `
 export const Intro = styled.div`
     display: flex;
@@ -58,8 +61,25 @@ export const Intro = styled.div`
                 transform: translateX(0);
             }
         }
+        @media (max-width: 500px) {
+            font-size: 6vw;
+        }
     }
-    
+    .badge {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        a{
+            width: 30%;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    @media (max-width: 500px) {
+        width: 100%;
+    }
               
 `
 export const Skills = styled.div`
@@ -78,7 +98,10 @@ export const Skills = styled.div`
             100% {
                 transform: translateY(0);
             }
-          }
+        }
+        @media (max-width: 500px) {
+            font-size: 3.5vw;
+        }
     }
     h2{
         margin-bottom: 3vh;
@@ -86,5 +109,12 @@ export const Skills = styled.div`
         text-transform: uppercase;
         font-size: 2vw;
         font-weight: 500;
+        @media (max-width: 500px) {
+            margin-top: 5vh;
+            font-size: 6vw;
+        }
+    }
+    @media (max-width: 500px) {
+        width: 90%;
     }
 `

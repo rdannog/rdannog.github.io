@@ -149,14 +149,14 @@ export const IntroContainer = styled.div`
             transform:translateX(0);
             }
         }
+        @media (max-width: 500px) {
+            width: 100%;
+        }
     }
     @media (max-width: 500px) {
         margin-top:5vh;
         width: 60%;
         height: 60%;
-    }
-    @media (max-width: 320px) {
-        width:100%;
     }
 `
 export const IntroText = styled.div`
@@ -183,7 +183,7 @@ export const IntroText = styled.div`
             font-size: 3.5vw;
         }
         @media (max-width: 500px) {
-            font-size: 5vw;
+            font-size: 7vw;
         }
         @media (max-width: 320px) {
             font-size: 10vw;
@@ -197,13 +197,9 @@ export const IntroText = styled.div`
             font-size: 4vw;
         }
         @media (max-width: 500px) {
-            font-size: 4.5vw;
-            width: 80%;
+            font-size: 5vw;
+            width: 90%;
             text-align: center;
-        }
-        @media (max-width: 320px) {
-            width:100%;
-            font-size: 6.5vw;
         }
     }
     p{
@@ -213,11 +209,8 @@ export const IntroText = styled.div`
             font-size: 1.9vw;
         }
         @media (max-width: 500px) {
-            font-size: 2.5vw;
-            font-weight: bold;
-        }
-        @media (max-width: 320px) {
-            font-size: 5vw;
+            font-size: 3.2vw;
+            font-weight: 500;
             text-align: center;
         }
     }
