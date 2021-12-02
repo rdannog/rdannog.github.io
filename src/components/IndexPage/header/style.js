@@ -30,6 +30,7 @@ export const Navigation =styled.nav`
         height: 50%;
         text-transform: uppercase;
         font-size: 1.4vw;
+        font-weight: 300;
     }
     @media (max-width: 500px) {
         display: none;
@@ -103,6 +104,7 @@ export const HelloBtn = styled.div`
         background-color: rgb(212, 244, 198);
         text-transform: uppercase;
         font-size: 1.2vw;
+        font-weight: 300;
         color: #303030;
         transition: all 1s ease;
         &:hover{
@@ -176,7 +178,7 @@ export const IntroText = styled.div`
 
     h1{
         font-size: 2.8vw;
-        font-weight: lighter;
+        font-weight: 300;
         @media (max-width: 768px) {
             font-size: 3.5vw;
         }
@@ -206,6 +208,7 @@ export const IntroText = styled.div`
     }
     p{
         font-size: 1.6vw;
+        font-weight:300;
         @media (max-width: 768px) {
             font-size: 1.9vw;
         }
@@ -234,26 +237,26 @@ export const IntroText = styled.div`
     
 `
 export const Ul = styled.ul`
-  list-style: none;
-  display: flex;
-  flex-flow: row nowrap;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
 
-  li {
-    padding: 18px 10px;
-  }
+    li {
+        padding: 18px 10px;
+    }
 
-  @media (max-width: 600px) {
-    flex-flow: column nowrap;
-    background-color: #0D2538;
-    position: fixed;
-    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 300px;
-    padding-top: 3.5rem;
-    transition: transform 0.3s ease-in-out;
-  }
+    @media (max-width: 600px) {
+        flex-flow: column nowrap;
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding-top: 3.5rem;
+        height: 100vh;
+        width: 300px;
+        background-color: #0D2538;
+        transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+        transition: transform 0.3s ease-in-out;
+    }
 `;
 export const Anchor = styled(Link)`
     padding: 0% 10%;

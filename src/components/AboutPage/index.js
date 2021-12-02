@@ -31,11 +31,11 @@ export default function About() {
                 </S.Intro>
 
                 <S.Skills>
+                    <h2>More about me</h2>
                     <ul>
                         <li>🧑🏾‍💻 Front-end developer React.js and also a person.</li>
-                        <li>📌 I live in Rio de Janeiro</li>
-                        <li>🚀 Currently teaching HTML, CSS and React JS to begginer students.</li>
                         <li>🌱 Going deeper into HTML5, CSS3 and JavaScript.</li>
+                        <li>🚀 Currently teaching HTML, CSS and React JS to begginer students.</li>
                         <li>🎓 Undergraduate student in Social Sciences, with major in digital sociology studies.</li>
                         <li>🤓 I'm learning front-end development with technologies: ReactJS, GatsbyJS, Styled-Components, GraphQL, and Git flow.</li>
                         <li>🇺🇸 Practicing english to achieve fluency.</li>
