@@ -32,18 +32,24 @@ export const Pages = styled.div`
         position: relative;
         margin-bottom:10vh;
         width:45%;
-        &:hover div{
+        &:hover .mask{
             visibility: visible;
             border: 5px solid #B6BDDB;
             border-radius: 5px;
             padding: 8vh 5vw;
             width: 100%;
             height:100%;
-            opacity: 0.8; 
+            opacity: 0.9; 
             cursor:pointer;
         }
-        div{
+        .preview{
+            border-radius: 5px;
+            width:100%;
+        }
+        .mask{
             display:flex;
+            flex-direction: column;
+            flex-wrap: wrap;
             align-items:center;
             justify-content:center;
             position: absolute;
@@ -56,14 +62,20 @@ export const Pages = styled.div`
             font-size:2.3vw;
             font-weight:900;
             opacity: 0;
-            visibility: hidden;
-            -webkit-transition: visibility 0s, opacity 0.5s linear; 
+            visibility: hidden; 
             transition: visibility 0s, opacity 0.5s linear;
-
-        }
-        img{
-            border-radius: 5px;
-            width:100%;
+            h1{
+                font-size:3vw;
+                margin-bottom:5vh;
+            }
+            .badge{
+                display:flex;
+                flex-wrap:wrap;
+                align-items:center;
+                justify-content:center;
+                width:90%;
+            }
+            
         }
         @media (max-width: 500px) {
             width:90%;

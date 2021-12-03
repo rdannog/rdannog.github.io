@@ -5,34 +5,34 @@
 <h1 align="center">Dan Nogueira's Portfolio</h1>
 
 <div>
-    <p align="center">
-        <img 
+  <p align="center">
+    <img 
     src="https://img.shields.io/badge/Gatsby-%23663399.svg?style=for-the-badge&logo=gatsby&logoColor=white" 
     alt="gatsby">
-  <img 
+    <img 
     src="https://img.shields.io/badge/styled_components-DB7093?style=for-the-badge&amp;logo=styled-components&amp;logoColor=white" 
     alt="styled-components">
-  <img 
+    <img 
     src="https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" 
     alt="graphql">
-      <img 
+    <img 
     src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" 
     alt="npm">
     <img 
     src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white"
     alt="Git" />
-      <img 
-    src="https://img.shields.io/badge/Netlify-30C8C9?style=for-the-badge&amp;logo=netlify&amp;logoColor=white" 
-    alt="Netlify">
-    </p>
+    <img 
+    src="https://img.shields.io/badge/GH_Pages_Deploy-Published-22272E?style=for-the-badge&logo=github" 
+    alt="ghpages"/>
+  </p>
 </div>
 
 ## Table of Contents
 
 <p align="center">
- <a href="#about">About</a> •
- <a href="#revised-concepts">Revised Concepts</a> • 
- <a href="#installation">Installation</a> 
+  <a href="#about">About</a> •
+  <a href="#revised-concepts">Revised Concepts</a> • 
+  <a href="#installation">Installation</a> 
 </p>
 
 ## 📌About
@@ -58,7 +58,7 @@
 - Designing components
 - Animation
 - Theme changing (Dark/Light)
-- Deploying
+- Deploying to gh-pages
 
 <h2 id="installation">📕Installation</h2>
 
@@ -90,7 +90,7 @@ npm install
     
  **Open the code and start customizing!**
 
-    Project is now running at http://localhost:8000!
+  Project is now running at http://localhost:8000!
 
 4.  **Learn more**
 
