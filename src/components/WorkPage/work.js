@@ -41,7 +41,7 @@ export default function Work() {
             </S.Title>
             <S.Pages>
                 <div className="box">
-                    <a href="https://ziggy-stardust.netlify.app/" target="_blank" >
+                    <a href="https://rdannog.github.io/ziggy-stardust_gatsby_landing-page/" target="_blank" >
                         <div className="mask">
                             <h1>Ziggy Stardust</h1>
                             <div  className="badge">
@@ -61,8 +61,8 @@ export default function Work() {
                                 src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white"
                                 alt="Git" />
                                 <img 
-                                src="https://img.shields.io/badge/Netlify-30C8C9?style=for-the-badge&amp;logo=netlify&amp;logoColor=white" 
-                                alt="Netlify"/>
+                                src="https://img.shields.io/badge/GH_Pages_Deploy-Published-22272E?style=for-the-badge&logo=github" 
+                                alt="ghpages"/>
                             </div>
 
                         </div>
