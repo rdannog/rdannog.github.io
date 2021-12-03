@@ -74,6 +74,10 @@ export const Pages = styled.div`
                 align-items:center;
                 justify-content:center;
                 width:90%;
+                img{
+                    margin:0.5vh 0.2vw;
+                    cursor:pointer;
+                }
             }
             
         }
