@@ -5,6 +5,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center; 
+    background-color:#B6BDDB;
 `
 export const Title = styled.div`
     display: flex;
@@ -34,7 +35,7 @@ export const Pages = styled.div`
         width:45%;
         &:hover .mask{
             visibility: visible;
-            border: 5px solid #B6BDDB;
+            border: 4px solid #202945;
             border-radius: 5px;
             padding: 8vh 5vw;
             width: 100%;

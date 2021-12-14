@@ -41,7 +41,7 @@ export default function Work() {
             </S.Title>
             <S.Pages>
                 <div className="box">
-                    <a href="https://rdannog.github.io/ziggy-stardust_gatsby_landing-page/" target="_blank" >
+                    <a href="https://ziggy-stardust.netlify.app/" target="_blank" rel="noreferrer noopener" >
                         <div className="mask">
                             <h1>Ziggy Stardust</h1>
                             <div  className="badge">
@@ -70,7 +70,7 @@ export default function Work() {
                     </a>
                 </div>
                 <div className="box">
-                    <a href="https://recipes-gatsby.netlify.app/" target="_blank">
+                    <a href="https://recipes-gatsby.netlify.app/" target="_blank" rel="noreferrer noopener">
                         <div className="mask">
                             <h1>Recipes Page</h1>
                             <div  className="badge">
@@ -100,7 +100,7 @@ export default function Work() {
                 
                 </div>
                 <div className="box">
-                    <a href="https://uloax.netlify.app/" target="_blank">
+                    <a href="https://uloax.netlify.app/" target="_blank" rel="noreferrer noopener">
                     <div className="mask">
                             <h1>Uloax Landing Page</h1>
                             <div  className="badge">
@@ -129,7 +129,7 @@ export default function Work() {
                     </a>
                 </div>
                 <div className="box">
-                    <a href="https://strytegy-clone.netlify.app/" target="_blank">
+                    <a href="https://strytegy-clone.netlify.app/" target="_blank" rel="noreferrer noopener">
                     <div className="mask">
                             <h1>Strytegy Clone</h1>
                             <div  className="badge">
@@ -158,7 +158,7 @@ export default function Work() {
                     </a>
                 </div>
                 <div className="box">
-                    <a href="https://rdannog.github.io/DanFlix-react-app/" target="_blank">
+                    <a href="https://rdannog.github.io/DanFlix-react-app/" target="_blank" rel="noreferrer noopener">
                         <img className="preview" src={danflix.url} alt=""/> 
                         <div className="mask">
                             <h1>DanFlix</h1>
@@ -184,7 +184,7 @@ export default function Work() {
                     </a>
                 </div>
                 <div className="box">
-                    <a href="https://rdannog.github.io/desafio-final-shopping-car/" target="_blank">
+                    <a href="https://rdannog.github.io/desafio-final-shopping-car/" target="_blank" rel="noreferrer noopener">
                     <div className="mask">
                             <h1>Car Shop</h1>
                             <div  className="badge">
@@ -210,7 +210,7 @@ export default function Work() {
                     </a>
                 </div>
                 <div className="box">
-                    <a href="https://rdannog.github.io/react-pokedex-app/" target="_blank">
+                    <a href="https://rdannog.github.io/react-pokedex-app/" target="_blank" rel="noreferrer noopener">
                     <div className="mask">
                             <h1>Pokédex Api</h1>
                             <div  className="badge">

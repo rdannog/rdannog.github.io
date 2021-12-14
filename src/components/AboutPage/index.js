@@ -1,16 +1,79 @@
 import React from 'react'
 import * as S from './style'
+import { useStaticQuery, graphql } from 'gatsby'
 
 export default function About() {
+    const data = useStaticQuery(graphql`
+        query {
+           alldata{
+            abouts {
+                avatar {
+                  url
+                }
+                emoji1 {
+                  url
+                }
+                emoji10 {
+                  url
+                }
+                emoji11 {
+                  url
+                }
+                emoji12 {
+                  url
+                }
+                emoji2 {
+                  url
+                }
+                emoji3 {
+                  url
+                }
+                emoji4 {
+                  url
+                }
+                emoji6 {
+                  url
+                }
+                emoji5 {
+                  url
+                }
+                emoji7 {
+                  url
+                }
+                emoji8 {
+                  url
+                }
+                emoji9 {
+                  url
+                }
+                text1
+                text10
+                text11
+                text12
+                text2
+                text3
+                text4
+                text5
+                text6
+                text7
+                text8
+                text9
+                title
+              }
+          }
+        }
+    `)
+    const { text1,text10,text11,text12,text2,text3,text4,text5,text6,text7,text8, text9, title, avatar, emoji1, emoji10,emoji11,emoji12, emoji2, emoji3, emoji4,emoji6, emoji5,emoji7, emoji8, emoji9 } = data.alldata.abouts[0]
     return (
         <S.Container>
+            
             <S.About>
                 <S.Intro>
                     <div className="profilebox">
-                        <img className="profile" src="https://avatars.githubusercontent.com/u/49248176?v=4" alt=""/>
+                        <img className="profile" src={avatar.url} alt=""/>
                     </div>
                     <div>
-                        <h1>Hi there 👋, I'm Dandaro</h1>
+                        <h1>{title}</h1>
                     </div>
                     <div className="badge">
                         <a href="mailto:dandaro.nogueira@gmail.com">
@@ -24,27 +87,63 @@ export default function About() {
                         </a>
                         <a href="https://www.linkedin.com/in/dandaronogueira/">
                             <img 
-                            src="https://img.shields.io/badge/Linkedin-B6BDDB?style=for-the-badge&amp;logo=LinkedIn&amp;logoColor=202945" 
+                            src="https://img.shields.io/badge/Linkedin-9D66D0?style=for-the-badge&amp;logo=LinkedIn&amp;logoColor=202945" 
                             alt="linked-in"/>
                         </a>
                     </div>
                 </S.Intro>
 
                 <S.Skills>
-                    <h2>More about me</h2>
-                    <ul>
-                        <li>🧑🏾‍💻 Front-end developer React.js and also a person.</li>
-                        <li>🌱 Going deeper into HTML5, CSS3 and JavaScript.</li>
-                        <li>🚀 Currently teaching HTML, CSS and React JS to begginer students.</li>
-                        <li>🎓 Undergraduate student in Social Sciences, with major in digital sociology studies.</li>
-                        <li>🤓 I'm learning front-end development with technologies: ReactJS, GatsbyJS, Styled-Components, GraphQL, and Git flow.</li>
-                        <li>🇺🇸 Practicing english to achieve fluency.</li>
-                        <li>🤔 I'm looking to help with social impact projects.</li>
-                        <li>💬 Any help or tips is always welcome! (seriously)</li>
-                        <li>❤️ Interests: watch video essays on youtube, <b>David Bowie</b>, documental series, Drag Race, listen to music and read books.</li>
-                        <li>🎨 I love doing analog collages, watercolor paintings, singing and checking if my cactus are growing (they are growing nice)</li>
-                        <li>😇 I'm 23, identify myself as a non-binary person and I'm also a gemini. My pronoums are he/they.</li>
-                    </ul>
+                    <div>
+                        <div className='item'>
+                            <p>{text1}</p>
+                            <S.Emoji className='left' src={emoji1.url} alt=""/>
+                        </div>
+                        <div className='item'>
+                            <S.Emoji className="tech" src={emoji2.url} alt=""/>
+                            <p>{text2}</p>
+                        </div>
+                        <div className='item'>
+                            <p>{text3}</p>
+                            <S.Emoji className='left' src={emoji3.url} alt=""/>
+                        </div>
+                        <div className='item'>
+                            <S.Emoji src={emoji4.url} alt=""/>
+                            <p>{text4}</p>
+                        </div>
+                        <div className='item'>
+                            <p>{text5}</p>
+                            <S.Emoji className='left' src={emoji5.url} alt=""/>
+                        </div>
+                        <div className='item'>
+                            <S.Emoji src={emoji6.url} alt=""/>
+                            <p>{text6}</p>
+                        </div>
+                        <div className='item'>
+                            <p>{text7}</p>
+                            <S.Emoji className='left' src={emoji7.url} alt=""/>
+                        </div>
+                        <div className='item'>
+                            <S.Emoji src={emoji8.url} alt=""/>
+                            <p>{text8}</p>
+                        </div>
+                        <div className='item'>
+                            <p>{text9}</p>
+                            <S.Emoji className='left' src={emoji9.url} alt=""/>
+                        </div>
+                        <div className='item'>
+                            <S.Emoji src={emoji10.url} alt=""/>
+                            <p>{text10}</p>
+                        </div>
+                        <div className='item'>
+                            <p>{text11}</p>
+                            <S.Emoji className='left' src={emoji11.url} alt=""/>
+                        </div>
+                        <div className='item'>
+                            <S.Emoji src={emoji12.url} alt=""/>
+                            <p>{text12}</p>
+                        </div>
+                    </div>
                 </S.Skills>
             </S.About>
         </S.Container>
