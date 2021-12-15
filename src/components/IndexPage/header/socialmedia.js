@@ -1,18 +1,7 @@
 import React from 'react'
-import { Link, graphql, useStaticQuery } from 'gatsby'
 import * as S from './style'
 
 export function Socialmedia() {
-  const data = useStaticQuery(graphql`
-        query {
-           alldata{
-            headers {
-              helloBtn
-            }
-          }
-        }
-    `)
-    const { helloBtn } = data.alldata.headers[0]
     return (
         <S.Socialmedia>
             <S.IconContainer>
@@ -32,11 +21,6 @@ export function Socialmedia() {
               </svg>
             </a>
             </S.IconContainer>
-            <S.HelloBtn>
-              <Link to="/contact">
-                <button>{helloBtn}</button>
-              </Link>
-          </S.HelloBtn>
       </S.Socialmedia>
     )
 }

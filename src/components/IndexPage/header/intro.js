@@ -7,6 +7,9 @@ export default function Intro() {
         query {
            alldata{
             headers {
+                arrow{
+                    url
+                }
                 photo {
                   url
                 }
@@ -14,15 +17,18 @@ export default function Intro() {
                 subtitle
                 description
                 contact
+                me
               }
           }
         }
     `)
-    const { description, intro, photo, subtitle} = data.alldata.headers[0]
+    const { description, intro, photo, subtitle, arrow, me} = data.alldata.headers[0]
     return (
         <S.Intro>
             <S.IntroContainer>
-                <img src={photo.url} alt=""/>
+                <p className='text-intro'>{me}</p>
+                <img className='arrow' src={arrow.url} alt='me'/>
+                <img className='me' src={photo.url} alt=""/>
             </S.IntroContainer>
             <S.IntroText>
                 <h1>{intro} ✨</h1>

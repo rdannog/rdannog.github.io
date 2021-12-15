@@ -15,7 +15,8 @@ export const Title = styled.div`
     height:25vh;
     h1{
         text-transform:uppercase;
-        font-size:2.5vw;
+        font-family: 'Reenie Beanie', cursive;
+        font-size:3vw;
         font-weight:500;
         color:#202945;
         @media (max-width: 500px) {

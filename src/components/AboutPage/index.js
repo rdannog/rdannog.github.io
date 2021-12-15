@@ -81,7 +81,7 @@ export default function About() {
                             src="https://img.shields.io/badge/Gmail-F85C46?style=for-the-badge&amp;logo=Gmail&amp;logoColor=202945" alt="gmail"/>
                         </a>
                         <a href="https://www.instagram.com/rdannog/">
-                            <img 
+                            <img
                             src="https://img.shields.io/badge/Instagram-D4F4C6?style=for-the-badge&amp;logo=instagram&amp;logoColor=202945" 
                             alt="instagram"/>
                         </a>

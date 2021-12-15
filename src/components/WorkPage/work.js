@@ -44,7 +44,7 @@ export default function Work() {
                     <a href="https://ziggy-stardust.netlify.app/" target="_blank" rel="noreferrer noopener" >
                         <div className="mask">
                             <h1>Ziggy Stardust</h1>
-                            <div  className="badge">
+                            <div className="badge">
                                 <img 
                                 src="https://img.shields.io/badge/Gatsby-%23663399.svg?style=for-the-badge&logo=gatsby&logoColor=white" 
                                 alt="gatsby"/>
@@ -61,10 +61,9 @@ export default function Work() {
                                 src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white"
                                 alt="Git" />
                                 <img 
-                                src="https://img.shields.io/badge/GH_Pages_Deploy-Published-22272E?style=for-the-badge&logo=github" 
-                                alt="ghpages"/>
+                                src="https://img.shields.io/badge/Netlify-30C8C9?style=for-the-badge&amp;logo=netlify&amp;logoColor=white" 
+                                alt="Netlify"/>
                             </div>
-
                         </div>
                         <img className="preview" src={ziggy.url} alt=""/>
                     </a>

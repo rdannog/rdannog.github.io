@@ -5,7 +5,6 @@ export const Container = styled.section`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 0.1vh solid #202945;
     height: 15vh;
     background-color:#B6BDDB;    
 `
@@ -137,7 +136,7 @@ export const IntroContainer = styled.div`
     justify-content: center;
     width: 40%;
     height: 100%;
-    img{
+    .me{
         border: solid 2px #303030;
         border-radius: 50%;
         width: 80%;
@@ -152,6 +151,104 @@ export const IntroContainer = styled.div`
         @media (max-width: 500px) {
             width: 100%;
         }
+    }
+    .arrow{
+      position: absolute;
+      top:27vh;
+      left: 5vw;
+      border:none;
+      border-radius:0px;
+      background-color:transparent;
+      transform: rotate(12deg);
+    }
+    .text-intro{
+        position: absolute;
+        top:20vh;
+        left: 2vw;
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 2.5vw;
+        color: #202945;
+        animation: flicker-in-2 2s linear infinite both;
+        @keyframes flicker-in-2 {
+            0% {
+              opacity: 0;
+            }
+            10% {
+              opacity: 1;
+            }
+            10.1% {
+              opacity: 1;
+            }
+            10.2% {
+              opacity: 0;
+            }
+            20.1% {
+              opacity: 1;
+            }
+            30% {
+              opacity: 1;
+            }
+            30.1% {
+              opacity: 1;
+            }
+            45% {
+              opacity: 0;
+            }
+            45.1% {
+              opacity: 1;
+            }
+            50% {
+              opacity: 1;
+            }
+            55% {
+              opacity: 1;
+            }
+            57% {
+              opacity: 0;
+            }
+            57.1% {
+              opacity: 1;
+            }
+            60% {
+              opacity: 1;
+            }
+            60.1% {
+              opacity: 0;
+            }
+            65% {
+              opacity: 0;
+            }
+            65.1% {
+              opacity: 1;
+            }
+            75% {
+              opacity: 1;
+            }
+            75.1% {
+              opacity: 0;
+            }
+            77% {
+              opacity: 0;
+            }
+            77.1% {
+              opacity: 1;
+            }
+            85% {
+              opacity: 1;
+            }
+            86% {
+              opacity: 0;
+            }
+            86.1% {
+              opacity: 1;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+          @media (max-width:500px){
+            font-size:5vw;
+          }
     }
     @media (max-width: 500px) {
         margin-top:5vh;
@@ -203,7 +300,8 @@ export const IntroText = styled.div`
         }
     }
     p{
-        font-size: 1.6vw;
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 2vw;
         font-weight:300;
         @media (max-width: 768px) {
             font-size: 1.9vw;

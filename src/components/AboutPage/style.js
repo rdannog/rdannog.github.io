@@ -79,12 +79,14 @@ export const Intro = styled.div`
         }
         @media (max-width:500px) {
             width: 100%;
+            flex-direction: column;
             img{
+                margin-bottom: 2vh;
                 width: 100%;
             }
+            
         }
-    }
-              
+    }            
 `
 export const Skills = styled.div`
     padding: 5vh 0;    

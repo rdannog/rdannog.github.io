@@ -5,7 +5,6 @@ export const Container = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-top: 0.1vh solid #202945;
 `
 export const Content = styled.div`
     display: flex;
@@ -14,7 +13,7 @@ export const Content = styled.div`
     justify-content: center;
     height: 15vh;
     width: 100%;
-    background-color:rgb(212, 244, 198);
+    background-image:linear-gradient(#B6BDDB, rgb(212, 244, 198));
     button{
         position: relative;
         display: inline-block;
@@ -26,7 +25,7 @@ export const Content = styled.div`
         transition: all 1s ease;
         &:hover{
             color: #fff;
-            background-color:#303030;
+            background-color:#202945;
             transition: all 0.8s ease 0s;
             animation: 5s ease 0s 1 normal none running;
             cursor:pointer;
@@ -53,8 +52,9 @@ export const Copyright = styled.section`
     justify-content: center;
     background-color:#202945;
     p{
+        font-family: 'Reenie Beanie', cursive;
         font-weight:100;
-        font-size:1vw;
+        font-size:1.4vw;
         color:rgb(212, 244, 198);
         @media (max-width: 425px) {
             font-size: 2vw;
