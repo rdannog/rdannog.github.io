@@ -308,7 +308,7 @@ export const IntroText = styled.div`
             font-size: 1.9vw;
         }
         @media (max-width: 500px) {
-            font-size: 3.2vw;
+            font-size: 6vw;
             font-weight: 500;
             text-align: center;
         }
@@ -321,7 +321,6 @@ export const IntroText = styled.div`
         align-items: center;
         justify-content: space-evenly;
         width: 75%;
-        height: 40%;
     }
     @media (max-width: 320px) {
        height: 80%;
