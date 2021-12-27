@@ -6,7 +6,7 @@ export const Container = styled.section`
     justify-content: space-around;
     align-items: center;
     height: 15vh;
-    background-color:#B6BDDB;    
+    background-color:${({ theme }) => theme.background};    
 `
 export const Navigation =styled.nav`
     display: flex;
@@ -30,6 +30,7 @@ export const Navigation =styled.nav`
         text-transform: uppercase;
         font-size: 1.4vw;
         font-weight: 300;
+        color: ${({ theme }) => theme.text};
     }
     @media (max-width: 500px) {
         display: none;
@@ -124,7 +125,7 @@ export const Intro = styled.section`
     justify-content: space-evenly;
     width: 100%;
     height: 85vh;
-    background-color:#B6BDDB;
+    background-color:${({ theme }) => theme.background};
     @media (max-width: 500px) {
         flex-direction: column;
         height: 100vh;   
@@ -167,7 +168,7 @@ export const IntroContainer = styled.div`
         left: 2vw;
         font-family: 'Reenie Beanie', cursive;
         font-size: 2.5vw;
-        color: #202945;
+        color: ${({ theme }) => theme.background};
         animation: flicker-in-2 2s linear infinite both;
         @keyframes flicker-in-2 {
             0% {
@@ -263,7 +264,7 @@ export const IntroText = styled.div`
     justify-content: space-around;
     width: 50%;
     height: 70%;
-    color:#202945;
+    color:${({ theme }) => theme.text};
 
     transform:translateY(-30%);
     animation: 3s slide 0s forwards;

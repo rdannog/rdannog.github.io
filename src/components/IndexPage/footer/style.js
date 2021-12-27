@@ -13,7 +13,7 @@ export const Content = styled.div`
     justify-content: center;
     height: 15vh;
     width: 100%;
-    background-image:linear-gradient(#B6BDDB, rgb(212, 244, 198));
+    background-image:linear-gradient(transparent,  rgba(212, 244, 198, 0.7));
     button{
         position: relative;
         display: inline-block;

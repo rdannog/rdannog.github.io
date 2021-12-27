@@ -5,7 +5,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    background-color:#B6BDDB;
+    background-color:${({ theme }) => theme.background};
 `
 export const Title = styled.div`
     display: flex;
@@ -18,7 +18,7 @@ export const Title = styled.div`
         font-family: 'Reenie Beanie', cursive;
         font-size:3vw;
         font-weight:500;
-        color:#202945;
+        color:${({ theme }) => theme.text};
         @media (max-width: 500px) {
             font-size: 7vw;
         }

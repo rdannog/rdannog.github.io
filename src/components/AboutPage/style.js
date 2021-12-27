@@ -6,8 +6,8 @@ export const Container = styled.div`
     justify-content: space-evenly;
     width: 100%;
     padding: 7vh 2vw;
-    color:#202945;
-    background-color: #B6BDDB;
+    color:${({ theme }) => theme.text};
+    background-color:${({ theme }) => theme.background};
 `
 export const About = styled.div`
     display: flex;
@@ -66,7 +66,7 @@ export const Intro = styled.div`
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        border-bottom: 2px solid #202945;
+        border-bottom: 2px solid ${({ theme }) => theme.background};
         padding-bottom: 5vh;
         width: 70%;
         img{
@@ -101,7 +101,7 @@ export const Skills = styled.div`
             font-family: 'Reenie Beanie', cursive;
             text-align: justify;
             font-size: 4vw;
-            color: #202945;
+            color: ${({ theme }) => theme.text};
             @media (max-width: 500px) {
                 font-size: 7vw;
             }

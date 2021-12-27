@@ -5,7 +5,6 @@ import { Settings } from "../settings/settings.js"
 import Menu from "../components/IndexPage/header/menu.js"
 import Footer from "../components/IndexPage/footer/index.js"
 
-
 export default function Blog() {
   return (
     <div>
