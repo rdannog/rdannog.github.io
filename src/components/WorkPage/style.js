@@ -30,6 +30,14 @@ export const Pages = styled.div`
     justify-content: space-evenly;
     align-items: center;
     width:100%;
+    .back{
+        position: fixed;
+        bottom: 10vh;
+        right: 4vw;
+        img{
+            cursor: pointer;
+        }
+    }
     .box{
         position: relative;
         margin-bottom:10vh;

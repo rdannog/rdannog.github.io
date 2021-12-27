@@ -14,6 +14,14 @@ export const About = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    .back{
+        position: fixed;
+        bottom: 10vh;
+        right: 4vw;
+        img{
+            cursor: pointer;
+        }
+    }
 `
 export const Intro = styled.div`
     display: flex;
@@ -114,6 +122,7 @@ export const Skills = styled.div`
         margin-left: 5vw;
         
     }
+    
     @media (max-width: 500px) {
         width: 100%;
     }
