@@ -10,8 +10,7 @@ body {
   color: ${({ theme }) => theme.color};
   margin: 0;    
   padding: 0;    
-  font-family: sans-serif;    
-  transition: all 0.25s linear;
+  font-family: sans-serif;
 }
 a{
     color: ${({ theme }) => theme.hover}} ;
